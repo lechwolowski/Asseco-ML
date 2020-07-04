@@ -1,4 +1,4 @@
-I trained the model at 100 epochs at a time.<br>
+I trained the model at 100 epochs at a time. The best validation accuracy This model was able to produce is 76%. Data augmentation plays a significant role in this score. Without it we would lose around 15% due to overfitting. Further training doesn't seem to bring any results for validation set. It seems that 300 epochs is enough. <br>
 ## Training accuracy
 Brown: 1-100 epochs<br>
 Orange: 101-200 epochs<br>
